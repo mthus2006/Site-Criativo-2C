@@ -1,14 +1,15 @@
-.cabecalho{
+*{
     margin: 0;
     padding: 0;
 }
-.cabcalho{
-    background-color: #424e61;
+
+.cabecalho{
+    background-color: #424E61;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px ;
+    padding: 24px;
 }
 
 .cabecalho-imagem{
@@ -16,28 +17,32 @@
 }
 
 .cabecalho-lista-item{
-     display: inline-block;
-     margin: 0 16px;
-     font-size: 24px;
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
-
-
 
 .escola-imagem{
     width: 25%;
 }
+
 .escola{
-background-image: linear-gradient(#424E61,#4EBFE9);
-color: white;
-justify-content: center;
-align-items: center;
-padding: 24px 0;
+    background-image: linear-gradient(#424E61,#4EBFE9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
 
 .escola-div-conteudo{
-    width: 35% ;
+    width: 35%;
 }
-.escola--titulo{
-    padding: 24px 0;
 
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.escola-imagem{
+    width: 120px;
 }
